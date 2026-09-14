@@ -1,0 +1,24 @@
+MAIN PROJECT FLOW
+
+
+Resume + Job Description
+          ↓
+   Extract Resume Text
+          ↓
+    Clean Text
+          ↓
+    Extract Skills
+          ↓
+ Compare Resume & JD
+          ↓
+ ┌────────┴──────────┐
+ ↓                   ↓
+Matched Skills    Missing Skills
+          ↓
+ TF-IDF + Cosine Similarity
+          ↓
+   Overall Resume Score
+          ↓
+     Suggestions
+          ↓
+   Final Analysis
